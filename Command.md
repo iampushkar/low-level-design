@@ -198,4 +198,62 @@ Benefit:
     - adhers to the open close principle making system open for extension but closed for modification 
 
 3. SRP 
-    - pizza class handles making of pizza 
+    - pizza class handles making of pizza
+
+
+# Calculator:
+---------------
+
+basic operations : add | sub | divide | multiply 
+
+interface Command {
+    // num1, num2 , add -> num1 + num2
+    execute(int num1, int num2);
+}
+
+class AdditionCommand implements Command {
+
+    void execute(int num1, int num2) {
+        return num1 + num2;
+    }
+}
+
+class SubtractionCommand implements Command {
+    void execute(int num1, int num2) {
+        return num1 - num2;
+    }
+}
+
+class CalculatorInvoker {
+    Command command;
+    setCommand(Command command) {
+        this.command = command;
+    }
+
+    calculateStuff(int num1, int num2) {
+        command.execute(num1, num2);
+    }
+}
+
+class CalculatorClient {
+    main() {
+        CalculatorInvoker invoker = new CalculatorInvoker();
+
+        int num1 = 10;
+        int num2 = 25;
+        // userInput - get it from user 
+        // ask command from user 
+        // performCommand()
+    }
+
+    performCommand(operator) {
+        switch(operator) {
+            case "+" -> {
+                invoker.setCommand(new AdditionCommand());
+                invoker.calculateStuff(num1, num2);
+            }
+        }
+    }
+}
+
+
