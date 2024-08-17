@@ -108,7 +108,7 @@ Command concrete Classes ✅
 Invoker 
 Client 
 
-
+```
 interface Command {
     void execute();
 }
@@ -186,6 +186,7 @@ class Client {
         waiter.placeOrder();
     }
 }
+```
 
 Benefit:
 -------------------
@@ -205,7 +206,7 @@ Benefit:
 ---------------
 
 basic operations : add | sub | divide | multiply 
-
+```
 interface Command {
     // num1, num2 , add -> num1 + num2
     execute(int num1, int num2);
@@ -255,5 +256,5 @@ class CalculatorClient {
         }
     }
 }
-
+```
 
