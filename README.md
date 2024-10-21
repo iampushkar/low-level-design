@@ -11,3 +11,7 @@ This Repo is a collection of different design patterns and case studies
   
 3. Iterator Pattern
    - [Design Playlist Iterator](https://manishpushkar.me/lld-design-a-music-playlist-iterator)
+
+## Creational Design Pattern
+1. [Prototype Pattern](https://github.com/iampushkar/lld-prototype-pattern)
+   - [Blog](https://manishpushkar.me/lld-prototype-design-pattern)
