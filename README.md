@@ -18,7 +18,7 @@ This repository contains a categorized list of design patterns. Use the checklis
 |---------------------|------------|--------------------------|
 | Adapter             | [ ]        | [Add Link](#)            |
 | Bridge              | [ ]        | [Add Link](#)            |
-| Composite           | [ ]        | [Add Link](#)            |
+| Composite           | [x]        | [File System](https://github.com/iampushkar/low-level-design/blob/main/StructuralPattern/CompositePattern/Main.java)            |
 | Decorator           | [ ]        | [Add Link](#)            |
 | Facade              | [ ]        | [Add Link](#)            |
 | Flyweight           | [ ]        | [Add Link](#)            |
