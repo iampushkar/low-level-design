@@ -1,3 +1,5 @@
+package structural.composite;
+
 public class File implements FileSystemComponent {
     private String fileName;
 
