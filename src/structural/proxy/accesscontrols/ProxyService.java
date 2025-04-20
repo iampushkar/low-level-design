@@ -1,9 +1,9 @@
-package structural.proxy;
+package structural.proxy.accesscontrols;
 
 public class ProxyService implements IContentService {
 
     private final Role userRole;
-    private final ContentService contentService;
+    private final IContentService contentService;
 
     public ProxyService(Role userRole, ContentService contentService) {
         this.userRole = userRole;

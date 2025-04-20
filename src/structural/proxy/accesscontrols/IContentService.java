@@ -1,4 +1,4 @@
-package structural.proxy;
+package structural.proxy.accesscontrols;
 
 public interface IContentService {
 
