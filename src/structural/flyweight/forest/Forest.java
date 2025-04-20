@@ -1,4 +1,4 @@
-package structural.flyweight;
+package structural.flyweight.forest;
 
 import java.util.ArrayList;
 import java.util.List;

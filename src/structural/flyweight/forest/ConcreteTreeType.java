@@ -1,4 +1,4 @@
-package structural.flyweight;
+package structural.flyweight.forest;
 
 record ConcreteTreeType(String name, String color, String texture) implements TreeType {
     @Override

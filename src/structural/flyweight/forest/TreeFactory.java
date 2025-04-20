@@ -1,4 +1,4 @@
-package structural.flyweight;
+package structural.flyweight.forest;
 
 import java.util.HashMap;
 import java.util.Map;
