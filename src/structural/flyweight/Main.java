@@ -11,7 +11,7 @@ public class Main {
         Forest forest = new Forest();
         Random random = new Random();
 
-        int treeCount = 10;
+        int treeCount = 10000;
         for (int i = 0; i < treeCount; i++) {
             String type = treeTypes[random.nextInt(treeTypes.length)];
             String color = colors[random.nextInt(colors.length)];
