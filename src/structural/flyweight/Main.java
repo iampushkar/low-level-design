@@ -11,7 +11,7 @@ public class Main {
         Forest forest = new Forest();
         Random random = new Random();
 
-        int treeCount = 10000;
+        int treeCount = 10;
         for (int i = 0; i < treeCount; i++) {
             String type = treeTypes[random.nextInt(treeTypes.length)];
             String color = colors[random.nextInt(colors.length)];
@@ -28,5 +28,9 @@ public class Main {
         System.out.println("\n--- Forest Summary ---");
         System.out.println("Total trees planted: " + forest.totalTreesPlanted());
         System.out.println("Total unique TreeTypes: " + TreeFactory.totalTreeTypes());
+
+        Runtime runtime = Runtime.getRuntime();
+        System.out.println("Memory used (MB): " + (runtime.totalMemory() - runtime.freeMemory()) / (1024 * 1024));
+
     }
 }

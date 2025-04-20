@@ -13,9 +13,7 @@ public class Forest {
     }
 
     public void drawForest() {
-        for (Tree tree : trees) {
-            tree.draw();
-        }
+        trees.forEach(Tree::draw);
     }
 
     public int totalTreesPlanted() {
