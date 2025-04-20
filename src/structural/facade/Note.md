@@ -6,3 +6,4 @@ In a typical hotel booking flow, multiple steps are involved:
 - Process the payment
 - Book the room
 - Send booking confirmation
+
