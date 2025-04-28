@@ -31,19 +31,19 @@ This repository is a **one-stop resource** to learn, implement, and explore all 
 ---
 
 ## ✅ Behavioral Patterns
-| **Pattern**                | **Status** | **Resource Link**                                                                                                               |
-|----------------------------|------------|----------------------------------------------------------------------------------------------------------------------------------|
-| Chain of Responsibility    | [x]        | [Design Logger](https://manishpushkar.me/lld-design-a-logger-chain-of-responsibility-design-pattern)                            |
-| Command                    | [x]        | [Command Pattern](https://github.com/iampushkar/low-level-design/tree/main/src/behavioral/command), [Console Calculator](https://github.com/iampushkar/ConsoleCalculator), [Text Editor](https://github.com/iampushkar/TextEditor) |
-| Interpreter                | [ ]        | [Repository](https://github.com/iampushkar/low-level-design/tree/main/src/behavioral/interpreter)                               |
-| Iterator                   | [x]        | [Design Playlist Iterator](https://manishpushkar.me/lld-design-a-music-playlist-iterator)                                       |
-| Mediator                   | [ ]        | [Repository](https://github.com/iampushkar/low-level-design/tree/main/src/behavioral/mediator)                                  |
-| Memento                    | [ ]        | [Repository](https://github.com/iampushkar/low-level-design/tree/main/src/behavioral/memento)                                   |
-| Observer                   | [ ]        | [Repository](https://github.com/iampushkar/low-level-design/tree/main/src/behavioral/observer)                                  |
-| State                      | [ ]        | [Repository](https://github.com/iampushkar/low-level-design/tree/main/src/behavioral/state)                                     |
-| Strategy                   | [ ]        | [Repository](https://github.com/iampushkar/low-level-design/tree/main/src/behavioral/strategy)                                  |
-| Template Method            | [ ]        | [Repository](https://github.com/iampushkar/low-level-design/tree/main/src/behavioral/template)                                  |
-| Visitor                    | [ ]        | [Repository](https://github.com/iampushkar/low-level-design/tree/main/src/behavioral/visitor)                                   |
+| **Pattern**                | **Status** | **Resource Link**                                                                                                                                                                                                                   |
+|----------------------------|------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Chain of Responsibility    | [x]        | [Design Logger](https://manishpushkar.me/lld-design-a-logger-chain-of-responsibility-design-pattern)                                                                                                                                |
+| Command                    | [x]        | [Command Pattern](https://github.com/iampushkar/low-level-design/tree/main/src/behavioural/command), [Console Calculator](https://github.com/iampushkar/ConsoleCalculator), [Text Editor](https://github.com/iampushkar/TextEditor) |
+| Interpreter                | [ ]        | [Repository](https://github.com/iampushkar/low-level-design/tree/main/src/behavioural/interpreter)                                                                                                                                  |
+| Iterator                   | [x]        | [Design Playlist Iterator](https://manishpushkar.me/lld-design-a-music-playlist-iterator)                                                                                                                                           |
+| Mediator                   | [ ]        | [Repository](https://github.com/iampushkar/low-level-design/tree/main/src/behavioural/mediator)                                                                                                                                     |
+| Memento                    | [ ]        | [Repository](https://github.com/iampushkar/low-level-design/tree/main/src/behavioural/memento)                                                                                                                                      |
+| Observer                   | [ ]        | [Repository](https://github.com/iampushkar/low-level-design/tree/main/src/behavioural/observer)                                                                                                                                     |
+| State                      | [ ]        | [Repository](https://github.com/iampushkar/low-level-design/tree/main/src/behavioural/state)                                                                                                                                        |
+| Strategy                   | [ ]        | [Repository](https://github.com/iampushkar/low-level-design/tree/main/src/behavioural/strategy)                                                                                                                                     |
+| Template Method            | [ ]        | [Repository](https://github.com/iampushkar/low-level-design/tree/main/src/behavioural/template)                                                                                                                                     |
+| Visitor                    | [ ]        | [Repository](https://github.com/iampushkar/low-level-design/tree/main/src/behavioural/visitor)                                                                                                                                      |
 
 ---
 
