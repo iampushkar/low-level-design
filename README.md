@@ -20,13 +20,13 @@ This repository is a **one-stop resource** to learn, implement, and explore all 
 ## ✅ Structural Patterns
 | **Pattern**         | **Status** | **Resource Link**                                                                                   |
 |---------------------|------------|------------------------------------------------------------------------------------------------------|
-| Adapter             | [ ]        | [Repository](https://github.com/iampushkar/low-level-design/tree/main/src/structural/adapter)       |
-| Bridge              | [ ]        | [Repository](https://github.com/iampushkar/low-level-design/tree/main/src/structural/bridge)        |
+| Adapter             | [x]        | [Repository](https://github.com/iampushkar/low-level-design/tree/main/src/structural/adapter)       |
+| Bridge              | [x]        | [Repository](https://github.com/iampushkar/low-level-design/tree/main/src/structural/bridge)        |
 | Composite           | [x]        | [File System](https://github.com/iampushkar/low-level-design/blob/main/StructuralPattern/CompositePattern/Main.java) |
-| Decorator           | [ ]        | [Repository](https://github.com/iampushkar/low-level-design/tree/main/src/structural/decorator)     |
-| Facade              | [ ]        | [Repository](https://github.com/iampushkar/low-level-design/tree/main/src/structural/facade)        |
-| Flyweight           | [ ]        | [Repository](https://github.com/iampushkar/low-level-design/tree/main/src/structural/flyweight)     |
-| Proxy               | [ ]        | [Repository](https://github.com/iampushkar/low-level-design/tree/main/src/structural/proxy)         |
+| Decorator           | [x]        | [Repository](https://github.com/iampushkar/low-level-design/tree/main/src/structural/decorator)     |
+| Facade              | [x]        | [Repository](https://github.com/iampushkar/low-level-design/tree/main/src/structural/facade)        |
+| Flyweight           | [x]        | [Repository](https://github.com/iampushkar/low-level-design/tree/main/src/structural/flyweight)     |
+| Proxy               | [x]        | [Repository](https://github.com/iampushkar/low-level-design/tree/main/src/structural/proxy)         |
 
 ---
 
@@ -34,14 +34,14 @@ This repository is a **one-stop resource** to learn, implement, and explore all 
 | **Pattern**                | **Status** | **Resource Link**                                                                                                                                                                                                                   |
 |----------------------------|------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Chain of Responsibility    | [x]        | [Design Logger](https://manishpushkar.me/lld-design-a-logger-chain-of-responsibility-design-pattern)                                                                                                                                |
-| Command                    | [x]        | [Command Pattern](https://github.com/iampushkar/low-level-design/tree/main/src/behavioural/command), [Console Calculator](https://github.com/iampushkar/ConsoleCalculator), [Text Editor](https://github.com/iampushkar/TextEditor) |
+| Command                    | [ ]        | [Command Pattern](https://github.com/iampushkar/low-level-design/tree/main/src/behavioural/command), [Console Calculator](https://github.com/iampushkar/ConsoleCalculator), [Text Editor](https://github.com/iampushkar/TextEditor) |
 | Interpreter                | [ ]        | [Repository](https://github.com/iampushkar/low-level-design/tree/main/src/behavioural/interpreter)                                                                                                                                  |
 | Iterator                   | [x]        | [Design Playlist Iterator](https://manishpushkar.me/lld-design-a-music-playlist-iterator)                                                                                                                                           |
-| Mediator                   | [ ]        | [Repository](https://github.com/iampushkar/low-level-design/tree/main/src/behavioural/mediator)                                                                                                                                     |
+| Mediator                   | [x]        | [Repository](https://github.com/iampushkar/low-level-design/tree/main/src/behavioural/mediator)                                                                                                                                     |
 | Memento                    | [ ]        | [Repository](https://github.com/iampushkar/low-level-design/tree/main/src/behavioural/memento)                                                                                                                                      |
 | Observer                   | [ ]        | [Repository](https://github.com/iampushkar/low-level-design/tree/main/src/behavioural/observer)                                                                                                                                     |
 | State                      | [ ]        | [Repository](https://github.com/iampushkar/low-level-design/tree/main/src/behavioural/state)                                                                                                                                        |
-| Strategy                   | [ ]        | [Repository](https://github.com/iampushkar/low-level-design/tree/main/src/behavioural/strategy)                                                                                                                                     |
+| Strategy                   | [x]        | [Repository](https://github.com/iampushkar/low-level-design/tree/main/src/behavioural/strategy)                                                                                                                                     |
 | Template Method            | [ ]        | [Repository](https://github.com/iampushkar/low-level-design/tree/main/src/behavioural/template)                                                                                                                                     |
 | Visitor                    | [ ]        | [Repository](https://github.com/iampushkar/low-level-design/tree/main/src/behavioural/visitor)                                                                                                                                      |
 
