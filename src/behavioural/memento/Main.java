@@ -4,21 +4,24 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("------- Memento Design Pattern -------");
 
-        TextEditor textEditor = new TextEditor();
-        HistoryManager historyManager = new HistoryManager();
+        TextEditor editor = new TextEditor();
+        HistoryManager history = new HistoryManager();
 
-        historyManager.save(textEditor);
-        textEditor.write("Hello Tony! ");
+        // Save empty state first
+        history.save(editor);  // ""
+        editor.write("Hello");
 
-        historyManager.save(textEditor);
-        textEditor.write("I am Peter");
+        history.save(editor);  // "Hello"
+        editor.write(" World!");
 
-        System.out.println("Current - " + textEditor.read());
+        // Don't save here, we already saved state before writing
 
-        historyManager.undo(textEditor);
-        System.out.println("Undo 1 - " + textEditor.read());
+        System.out.println("Current text: " + editor.read()); // Hello World!
 
-        historyManager.undo(textEditor);
-        System.out.println("Undo 2 - " + textEditor.read());
+        history.undo(editor);
+        System.out.println("After 1 undo: " + editor.read()); // Hello
+
+        history.undo(editor);
+        System.out.println("After 2 undos: " + editor.read()); // (empty)
     }
 }
