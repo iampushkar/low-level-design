@@ -1,6 +1,6 @@
 package behavioural.memento.texteditorversion;
 
-public class MementoDemo {
+public class MementoMain {
     public static void main(String[] args) {
         TextEditor editor = new TextEditor();
         HistoryManager manager = new HistoryManager();
