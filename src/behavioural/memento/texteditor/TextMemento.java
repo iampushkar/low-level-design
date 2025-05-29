@@ -1,4 +1,4 @@
-package behavioural.memento;
+package behavioural.memento.texteditor;
 
 /**
  * Memento - Holds the State

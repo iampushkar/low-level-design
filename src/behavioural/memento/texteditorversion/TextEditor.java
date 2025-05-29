@@ -1,10 +1,8 @@
-package behavioural.memento;
+package behavioural.memento.texteditorversion;
 
-/**
- * Originator - the object whose state is saved
- */
-public class TextEditor {
-    StringBuilder currentText = new StringBuilder();
+// Originator - the editor
+class TextEditor {
+    private StringBuilder currentText = new StringBuilder();
 
     public void write(String newText) {
         currentText.append(newText);

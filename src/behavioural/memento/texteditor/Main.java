@@ -1,4 +1,4 @@
-package behavioural.memento;
+package behavioural.memento.texteditor;
 
 public class Main {
     public static void main(String[] args) {
