@@ -36,7 +36,7 @@ class HistoryManager {
     public void listVersions() {
         for (int i = 0; i < versionHistory.size(); i++) {
             TextMemento m = versionHistory.get(i);
-            System.out.println("Version " + i + " - " + m.getTimestamp());
+            System.out.println("Version " + i + " - " + m.getTimestamp() + " - " + m.getSavedText());
         }
     }
 

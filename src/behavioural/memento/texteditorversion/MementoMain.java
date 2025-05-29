@@ -5,7 +5,7 @@ public class MementoMain {
         TextEditor editor = new TextEditor();
         HistoryManager manager = new HistoryManager();
 
-        editor.write("Version 1: Hello");
+        editor.write("Hello");
         manager.save(editor);
 
         editor.write(" World");
@@ -24,6 +24,9 @@ public class MementoMain {
 
         manager.undo(editor);
         System.out.println("After 2 undos: " + editor.read());
+
+        manager.undo(editor);
+        System.out.println("After 3 undos: " + editor.read());
 
         manager.redo(editor);
         System.out.println("After 1 redo: " + editor.read());
